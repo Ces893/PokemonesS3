@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:clickable="true"
     android:orientation="vertical">
 
     <TextView
@@ -10,10 +11,29 @@
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:layout_margin="8dp"
+        android:clickable="true"
         />
 
     <TextView
         android:id="@+id/Categoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:layout_marginTop="1dp"
+        />
+
+    <TextView
+        android:id="@+id/Latitud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:layout_marginTop="1dp"
+        />
+
+    <TextView
+        android:id="@+id/Longitud"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="18sp"

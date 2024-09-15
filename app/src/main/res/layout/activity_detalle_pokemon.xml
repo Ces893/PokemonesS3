@@ -6,23 +6,38 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/Name"
+        android:id="@+id/NameD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:padding="16dp"/>
 
     <TextView
-        android:id="@+id/Categoria"
+        android:id="@+id/TipoD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:padding="16dp"/>
 
     <TextView
-        android:id="@+id/Debilidad"
+        android:id="@+id/LatitudD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/LongitudD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/btnMapaD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Ir al Mapa" />
+
 </LinearLayout>
